@@ -39,7 +39,7 @@ class OneTest {
     }
 
     private fun getInputData(): Pair<List<Int>, List<Int>> {
-        val inputFile = OneTest::class.java.getResource("one.txt")!!.readText()
+        val inputFile = OneTest::class.java.getResource("inputs/one.txt")!!.readText()
 
         val (left, right) = inputFile.lines()
             .map { line -> Pair(line.substring(0..<5), line.substring(8..<13)) }
