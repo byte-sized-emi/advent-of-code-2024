@@ -1,5 +1,5 @@
 package me.emilia
 
 fun main() {
-    println("Hello World!")
+    print("Execute the tests")
 }
